@@ -4,7 +4,11 @@
   "description": "Adds eco support to brunch.",
   "author": "Paul Miller (http://paulmillr.com/)",
   "homepage": "https://github.com/brunch/eco-brunch",
-  "keywords": ["brunchplugin", "eco", "templates"],
+  "keywords": [
+    "brunchplugin",
+    "eco",
+    "templates"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:brunch/eco-brunch.git"
@@ -13,7 +17,7 @@
     "test": "node_modules/.bin/eslint index.js && node_modules/.bin/mocha"
   },
   "dependencies": {
-    "eco": "1.1.0-rc-3",
+    "eco": "github:mavenlink/eco#cec058497675a429e959282457d6030b6b283634",
     "umd-wrapper": "~0.1.0"
   },
   "devDependencies": {
